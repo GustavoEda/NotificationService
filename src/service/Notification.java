@@ -28,7 +28,7 @@ public class Notification {
             emailProvider.send(userId, email);
             notifications.add(email);
         } else {
-            System.out.println("logging");
+            System.out.println("max limit exceeded");
         }
     }
 
